@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProjectEuler_51_100.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="almost_eq_triangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amicable_chains.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="anagramic_squares.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arithmetic_expr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arranged_prob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coin_partitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="combinatoric_selections.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convergent_e.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="counting_fractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="counting_fractions_range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="counting_rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="counting_summations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cube_digit_pairs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cubic_permutations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cuboid_route.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cyclical_figurate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="digit_factorial_chains.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="diophantine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="large_non_mersenne_prime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="largest_exp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lychrel_numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_5gon_ring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="max_path_sum_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="monopoly_odds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="odd_per_sqr_roots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ordered_fractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="passcode_derivation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path_sum_2_way.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path_sum_3_way.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="path_sum_4_way.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="permuted_multiples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="poker_hands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="power_digit_counts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="power_digit_sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime_digit_replacement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime_pair_sets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime_power_triples.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prime_summations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="product_sum_numbers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="right_triangles_int_coord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roman_numerals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="single_int_right_triangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spiral_primes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqr_rt_convergents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sqrt_digital_expansion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="square_digit_chains.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="su_doku.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="totient_max.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="totient_permutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor_decryption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="base_exp.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="keylog.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="matrix_5_x_5.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="matrix_80_x_80.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="p059_cipher.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="poker.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="roman.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="sudoku.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="sudoku_test.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="triangle_path_2.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="words.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
