@@ -599,12 +599,12 @@ try_triples(as_t& b) {
 
 int upper_left_hand_corner(MatrixXi& bd)
 {
-	deque<int> digits;
+	vector<int> digits;
 	digits.push_back(bd(0, 0));
 	digits.push_back(bd(0, 1));
 	digits.push_back(bd(0, 2));
 
-	int number = digits_to_number_ms_to_ls(digits);
+	int number = digits_to_number_ms_to_ls<int>(digits);
 	return number;
 }
 

@@ -1,6 +1,8 @@
 // ProjectEulerNext50.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#define  _SILENCE_ALL_CXX23_DEPRECATION_WARNINGS
+
 #include <iostream>
 #include "prime_digit_replacement.h"
 #include "permuted_multiples.h"

@@ -140,7 +140,7 @@ void anagramic_squares()
 			if (twice.size() != 0)
 				fir_digits[twice[1]] = fir_digits[twice[0]];
 
-			int m = digits_to_number_ms_to_ls(fir_digits);
+			int m = digits_to_number_ms_to_ls<int>(fir_digits);
 			if (is_square(m))
 			{
 				VI sec_digits(prs.first.size(), 0); // first and second size should be identical
@@ -153,7 +153,7 @@ void anagramic_squares()
 				}
 				if (twice.size() != 0)
 					sec_digits[twice[3]] = sec_digits[twice[2]];
-				int n = digits_to_number_ms_to_ls(sec_digits);
+				int n = digits_to_number_ms_to_ls<int>(sec_digits);
 				if (is_square(n))
 					cout << "--got it--  " << m << "  " << n << "  " << prs.first << '\n';
 			}

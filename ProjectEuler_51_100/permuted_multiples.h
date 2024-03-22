@@ -35,15 +35,16 @@ void permuted_multiples()
 			{
 				digits.emplace_back(i);
 			}
-			deque<int> tmp_digits = digits;
-			int number = digits_to_number_ms_to_ls(tmp_digits);
+			vector<int> tmp_digits;
+			std::copy(digits.begin(), digits.end(), std::back_inserter(tmp_digits));
+			int number = digits_to_number_ms_to_ls<int>(tmp_digits);
 			cout << number << ", ";
 			int _2x = 2 * number;
 			int _3x = 3 * number;
 			int _4x = 4 * number;
 			int _5x = 5 * number;
 			int _6x = 6 * number;
-			deque<int> _2xd = number_to_digits_ms_to_ls(_2x);
+			deque<int> _2xd = number_to_digits_ms_to_ls<int>(_2x);
 			deque<int> _3xd = number_to_digits_ms_to_ls(_3x);
 			deque<int> _4xd = number_to_digits_ms_to_ls(_4x);
 			deque<int> _5xd = number_to_digits_ms_to_ls(_5x);

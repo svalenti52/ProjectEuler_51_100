@@ -36,6 +36,26 @@ u64 insert_digits(u64 p, Primes_List& pl, int d1, int d2, int d3)
 	return count;
 }
 
+void insert_digits_show(u64 p, Primes_List& pl, int d1, int d2, int d3)
+{
+	deque<u64> digits = number_to_digits_ms_to_ls(p);
+
+	u64 count = 0;
+	for (u64 ix = 0; ix < 10; ++ix)
+	{
+		if (ix == 0 && d1 == 0) continue; // lead 0's not permitted
+		// need to insert variable indices
+		digits[d1] = ix;
+		digits[d2] = ix;
+		digits[d3] = ix;
+
+		u64 test_prime = construct_number_from_digits(digits);
+		if (pl.is_prime(test_prime))
+			std::cout << test_prime << "  ";
+	}
+	std::cout << std::endl;
+}
+
 void prime_digit_replacement()
 {
 	Primes_List pl(1'000'000);
@@ -67,7 +87,8 @@ void prime_digit_replacement()
 				cout << "Digit Positions to do Substitution\n";
 				for (int x : vd)
 					cout << x << ", ";
-				cout << "\n\n";
+				cout << prime << "\n\n";
+				insert_digits_show(prime, pl, vd[0], vd[1], vd[2]);
 				break;
 			}
 		}
