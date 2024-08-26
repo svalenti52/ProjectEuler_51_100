@@ -3,13 +3,14 @@
 #include <iostream>
 #include <vector>
 #include <boost/multiprecision/cpp_int.hpp>
-#include "../repos/MonteCarlo/MonteCarlo/Continued_Fractions.h"
+#include "../repos/Math/Math/Continued_Fractions.h"
 
 using u64 = uint64_t;
 
 void diophantine1()
 {
 	using namespace boost::multiprecision;
+	namespace cf = continued_fraction_;
 	cpp_int zero;
 	vector<cpp_int> min_x { zero, zero }; // 0, 1 taken care of
 
@@ -26,12 +27,12 @@ void diophantine1()
 			continue;
 		}
 
-		cpp_int coef = coefficient_init;
-		cpp_int term = term_init;
-		cpp_int opposite = integral_init;
+		cpp_int coef = cf::coefficient_init;
+		cpp_int term = cf::term_init;
+		cpp_int opposite = cf::integral_init;
 
 		//cpp_int integer_part = integer_part_sequence(d, coef, term, opposite);
-		cpp_int convergent_numerator = root_sequence_convergents(d, coef, term, opposite);
+		cpp_int convergent_numerator = cf::root_sequence_convergents(d, coef, term, opposite);
 		if (convergent_numerator > x_max)
 		{
 			x_max = convergent_numerator;
