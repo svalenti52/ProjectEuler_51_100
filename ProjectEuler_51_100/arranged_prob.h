@@ -99,7 +99,7 @@ void arranged_prob1()
 	for (int ix = 0; ix <= primes.get_last_index(); ++ix)
 		prime_v.emplace_back(primes.get_ith_prime(ix));
 
-	u64 prime_mult = accumulate(prime_v.begin(), prime_v.begin() + 11, 1LL, multiplies());
+	u64 prime_mult = accumulate(prime_v.begin(), prime_v.begin() + 1ull, 1ULL, multiplies());
 
 	//for (auto i : prime_v)
 	//	cout << i << ' ';
